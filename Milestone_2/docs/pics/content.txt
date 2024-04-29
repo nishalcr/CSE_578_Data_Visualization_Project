@@ -1,0 +1,106 @@
+For User Story 3, a scatter plot was created to display the relationship between capital gain, education years, and income levels. The plot showed that higher education tends to correlate with increased capital gain and a higher likelihood of earning over 50K. It also highlighted a concentration of lower-income individuals with less education. These insights could help tailor strategies, offering educational products to lower-income individuals and investment opportunities to higher earners, to better target the audience.
+
+To fulfill the requirements of User Story 3, which involves displaying the distribution of capital gains and years of education for individuals earning above and below $50,000, a scatter plot was proposed. This plot uses color coding to distinguish between those earning less than or equal to $50,000 and those earning more, aiming to grasp the correlation between these variables and their impact on salary levels. Observations include:
+
+A positive correlation between the number of years of education and the proportion of individuals earning over $50,000.
+An upward trend in capital gains among those earning over $50,000 as the number of years of education increases.
+A significant majority of individuals earning over $50,000 exhibit higher levels of education and capital gains.
+
+
+
+For User Story 3, a scatter plot was created to visualize the relationship between capital gain, education years, and income levels. It revealed that higher education tends to correlate with increased capital gain and a higher likelihood of earning over 50K. Additionally, the plot highlighted a concentration of lower-income individuals with less education. These insights could help tailor strategies, offering educational products to lower-income individuals and investment opportunities to higher earners, to better target the audience.
+
+To fulfill the requirements of User Story 3, a scatter plot was proposed to display the distribution of capital gains and years of education for individuals earning above and below $50,000. The plot uses color coding to distinguish between these income groups, aiming to understand the correlation between education, capital gain, and salary levels. Observations include a positive correlation between education years and the proportion of individuals earning over $50,000, as well as an upward trend in capital gains among those earning over $50,000 with increasing education years. Additionally, a significant majority of individuals earning over $50,000 exhibit higher levels of education and capital gains.
+
+
+In User Story 3, a detailed analysis was conducted to understand the interplay between capital gain, years of schooling, and income levels. A scatter plot was utilized as a visual tool to effectively demonstrate these relationships. The findings from the plot were quite revealing. It was observed that individuals with higher levels of education tended to have higher capital gains and were more likely to earn over $50,000. This suggests a positive correlation between education and income levels. 
+
+Furthermore, the scatter plot highlighted a distinct concentration of individuals with lower incomes and less education. This underscores the presence of income disparity among different education groups. These insights are crucial as they can be used to tailor marketing strategies. For instance, educational products can be targeted towards individuals with lower incomes and less education, aiming to uplift their economic status. On the other hand, investment opportunities can be offered to higher earners, leveraging their financial capabilities. By customizing techniques in this manner, organizations can effectively target their audience and meet their specific needs and preferences.
+
+
+
+
+For User Story 4, which involves analyzing the relationship between marital status, hours worked per week, and years of education, a bubble chart was utilized. This chart visually represents the average hours worked per week and years of education, with the size of each bubble indicating the number of individuals in different marital status categories. Each labeled bubble represents a specific marital status category, displaying the average years of education and hours worked per week for individuals within that category. By leveraging statistical analysis, valuable insights were gained into the demographic profile, which can aid the marketing team in effectively targeting potential enrollees.
+
+Key Findings:
+
+1) The analysis revealed that within the same marital status group, individuals earning over $50K and those earning less than or equal to $50K exhibit varying average hours worked per week and levels of education. This suggests that income level is not the sole determinant of work hours and education level.
+
+2) Furthermore, individuals within the same marital status but different salary brackets provided additional evidence supporting the correlation between higher education and income level, consistent with previous analyses. This reinforces the importance of education in determining earning potential.
+
+3) The bubble chart serves as a valuable tool for the UVW marketing team, enabling them to refine social profiles for targeted marketing campaigns. It provides insights into the available time that certain social groups may dedicate to courses based on their education level, which can aid in course selection and campaign planning.
+
+
+
+
+
+
+
+
+
+
+
+
+To address User Story 5 and enhance enrollment at UVW College, I conducted an analysis to expand demographic data and identify potential course recipients. This involved using a color-coded scatter plot to visualize the average age and weekly work hours across various workclass categories. The insights derived from this analysis are detailed below:
+
+1) The scatter plot revealed a distinct segment of individuals classified as 'without-pay' who work more than 30 hours per week. This group could be targeted with courses focused on financial empowerment, and UVW College could offer financial aid to make these courses more accessible. By tailoring offerings to meet the needs of this demographic, UVW College could attract more students and increase enrollment.
+
+2) Another opportunity identified in the analysis is the 'never-worked' category, which includes individuals who have never held a job. Despite their lack of work experience, the average age of this group falls in the early 20s, indicating a potential interest in further education. This demographic also aligns with the majority of individuals earning a salary less than or equal to $50K, suggesting that they may benefit from targeted marketing and financial aid to encourage enrollment in UVW College's courses.
+
+By leveraging these insights and targeting specific demographic groups with tailored marketing and financial aid offerings, UVW College can enhance its enrollment efforts and attract a diverse range of students to its courses.
+
+
+
+
+
+
+
+For User Story 6, which involves displaying the breakdown of male and female populations across various occupations in our dataset, a mosaic plot was selected to provide an accurate representation of this scenario. The plots were generated for both instances where the salary is less than or equal to 50K and where it exceeds 50K. The key observations from these plots are as follows:
+
+1) The mosaic plots revealed a disparity between male and female populations across occupations. In instances where the salary is less than or equal to 50K, women outnumbered men in certain occupations, highlighting a gender imbalance in lower-income brackets. However, in cases where the salary exceeds 50K, no occupation was predominantly female, indicating a more balanced distribution across genders in higher-income brackets.
+
+2) Despite the dataset being predominantly male-centric, certain occupations were dominated by women. This suggests a significant concentration of women in specific job roles, which warrants further investigation into the factors contributing to this trend.
+
+Overall, the mosaic plots provided valuable insights into the gender distribution across occupations and income brackets, highlighting areas where gender disparities exist and where further research and targeted interventions may be needed to promote gender equality in the workforce.
+
+
+
+
+
+To address User Story 7, which involves analyzing the relationship among capital gain, years of education, and hours worked per week, a heatmap was employed to visualize these correlations. The heatmap offers insights into the relationships between these variables, providing a clear and concise representation of the data. The observations from the heatmaps are as follows:
+
+1) The analysis revealed a notably stronger correlation between capital gain and education-num (0.11 for Salary greater than $50K and 0.011 for Salary less than or equal to $50K). This supports previous findings suggesting that individuals with a salary greater than $50K tend to have higher levels of education.
+
+2) Additionally, there is a notable difference in the correlation between capital gain and hours worked per week. This difference highlights the complexity of the relationship between these variables and underscores the need for further analysis to fully understand their interactions.
+
+Overall, the heatmap provides a valuable tool for visualizing and interpreting the relationships among capital gain, education-num, and hours-per-week. It offers a clear and concise representation of the data, enabling researchers to identify patterns and trends that may not be immediately apparent from the raw data.
+
+
+
+
+
+
+
+
+
+When I first encountered the dataset in the .Data format, it posed a unique challenge as I was unfamiliar with its structure. To tackle this, I embarked on a learning journey to understand the format and how to interpret it. Using Python's functions along with Pandas' DataFrame() function, I successfully constructed the necessary dataframe for the project analysis.
+
+Another challenge arose when dealing with missing values in the dataframe. I meticulously examined the dataset to identify rows containing '?'. Once identified, I developed a method to locate these rows and replaced the '?' with a None value using the replace() function.
+
+The project presented a significant challenge due to the heavily skewed nature of the dataset. There were nearly three times as many individuals earning less than or equal to $50K compared to those earning more than $50K. This skewness complicated the use of scatter plots for certain user stories, as one class dominated the other, making it difficult to draw meaningful inferences. To address this, I employed undersampling of the dominant dataset and created a balanced dataset using the resample function from the sklearn library. This approach ensured a more equitable representation of both classes in the scatter plot, enabling better analysis of the data points.
+
+Additionally, working with the .data file format required me to learn how to properly structure and label the data. Handling special characters and missing data values added an extra layer of complexity to the analysis. Furthermore, analyzing and visualizing the data posed challenges due to its multivariate nature. Selecting attributes for multivariate plots like scatterplots to provide actionable insights and help in forming a target profile for marketing the courses was also challenging. I also faced difficulties in programmatically grouping data for multivariate analysis like scatter plots.
+
+
+
+
+
+
+
+
+
+Moving forward, I plan to revisit user stories 1 & 2 to improve data visualization methods. I intend to use oversampling and undersampling techniques to effectively select groups for analysis, especially when dealing with attributes that had missing values replaced with None. I also aim to explore simpler, self-calibrated values to enhance my understanding of grouping operations and determine the most effective charts for visualizing the data.
+
+Furthermore, I plan to develop additional user stories using mosaic plots and control graphs to gain further insights into the dataset. Additionally, I aim to create a tool that automates the detection of skewed features in the dataset upon loading. This tool will have an interactive interface, allowing users to select features and generate plots while providing error messages when necessary.
+
+Overall, despite the challenges faced, I have made significant progress in analyzing the data. My future work will focus on improving data visualization techniques, exploring new methods for analyzing the dataset, and developing tools to streamline the analysis process.
